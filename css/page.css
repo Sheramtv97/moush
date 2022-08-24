@@ -1,0 +1,531 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+#navbar {
+    padding: 20px 0;
+    position: fixed;
+    z-index: 999;
+    backdrop-filter: blur(5px);
+    width: 100%;
+    background: rgba(0, 0, 0, 0.72);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar nav a {
+    padding: 0 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    transition: .4s;
+}
+
+.navbar nav a:hover {
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+.navbar nav button{
+    width: 193px;
+    height: 48px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+    transition: .4s;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid white;
+}
+
+.navbar nav button:hover {
+    transform: scale(1.1);
+    background: red;
+}
+
+.navbar-general {
+    font-family: sans-serif;
+}
+
+.navbar nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar nav img {
+    padding-left: 15px;
+}
+#hero {
+    background: url("../img/ux.png") no-repeat center/cover fixed;
+    min-height: 80vh;
+    padding-top: 150px;
+}
+.hero-title {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    color: #FFFFFF;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+    padding-bottom: 10px;
+    filter: drop-shadow(0 10px 10px black);
+    padding-top: 120px;
+}
+.hero-btn {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    width: 322px;
+    height: 50px;
+    border-radius: 10px;
+    transition: .4s;
+    background: #FF001E;
+    padding-right: 20px;
+    border: none;
+}
+.hero-btn1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    background: #FF001E;
+    border-radius: 10px;
+    border: none;
+    transition: .4s;
+}
+
+
+.hero-btn:hover {
+    background: red;
+    border: 1px solid red;
+    transform: scale(1.1);
+}
+.hero-btn1:hover {
+    background: red;
+    border: 1px solid red;
+    transform: scale(1.1);
+}
+
+.hero-item {
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+
+.hero-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+#block{
+    background: #222222;
+}
+.block-general {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px 0 10px;
+}
+.block-general-block {
+    width: 220px;
+    height: 140px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding-top: 30px;
+}
+.block-general-sty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.block-general-sty h1 {
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FF001E;
+    padding: 10px 0 10px 0;
+}
+.block-general-sty h2 {
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px 0 10px;
+}
+.top-img {
+    padding: 20px 0 0 30px;
+}
+.hero-me {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: black;
+    width: 156px;
+    height: 50px;
+    background: #FF001E;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+    transition: .4s;
+    padding-right: 20px;
+}
+.hero-me:hover {
+    background: red;
+    border: 1px solid red;
+    transform: scale(1.1);
+}
+.or h5 {
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+.or h6 {
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+#work {
+    background: #222222;
+    padding-top: 40px;
+}
+.work-title h1 {
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+.work-title p {
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.work-two {
+    width: 300px;
+    height: 450px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.work-tw {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 0 20px;
+}
+.work-two p{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    padding: 0 10px 0 10px;
+}
+.work-two h1 {
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #000000;
+}
+.work-two h3 {
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FF001E;
+}
+.work-two button {
+    width: 250px;
+    height: 40px;
+    background: #222222;
+    border-radius: 10px;
+    color: #FFFFFF;
+    transition: .4s;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+.work-two button:hover {
+    background: red;
+    border: 1px solid red;
+    transform: scale(1.1);
+}
+.work-two h2 {
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    padding-top: 10px;
+
+}
+.work-two .work-gg {
+    width: 250px;
+    height: 40px;
+    background: #FF001E;
+    border-radius: 10px;
+    transition: .4s;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.work-gg button:hover {
+    background: #000000;
+    border: 1px solid red;
+    transform: scale(1.1);
+}
+#liv {
+    background: #222222;
+}
+.liv-title {
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+.liv-general {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 0 20px ;
+}
+.liv-gen {
+    width: 330px;
+    height: 161px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 6px 0 6px;
+
+}
+.liv-gen p {
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+.liv-but {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.liv-but button {
+    width: 250px;
+    height: 40px;
+    background: #FF001E;
+    border-radius: 10px;
+    transition: .4s;
+    margin-left: 20px;
+    border: none;
+}
+.liv-but button:hover {
+    border: 1px solid red;
+    transform: scale(1.1);
+    color: #FFFFFF;
+}
+#bor {
+    background: #222222;
+    padding: 50px 0;
+}
+
+.bor-title {
+    height: 72px;
+    width: 629px;
+}
+
+.bor-text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: #FF001E;
+}
+
+.bor-title p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.bor-title {
+    padding-bottom: 150px;
+}
+
+.bor-general {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bor-live {
+    width: 642px;
+    height: 400px;
+    background: #9D0013;
+    border-radius: 20px;
+}
+
+.bor-input1 input {
+    width: 280px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 10px;
+
+}
+
+.bor-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bor-input1 {
+    padding: 30px 20px 0 20px;
+}
+
+.bor-input2 input {
+    width: 582px;
+    height: 100px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.bor-input2 {
+    padding: 30px 0 0 30px;
+}
+
+.bor-live button {
+    width: 580px;
+    height: 40px;
+    background: #000000;
+    border-radius: 10px;
+    margin: 20px 0 0 33px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.bor-live button:hover {
+    transform: scale(1.1);
+    background: darkred;
+}
+
+.bor-tw p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    height: 48px;
+    width: 576px;
+    padding-left: 30px;
+    color: #FFFFFF;
+}
+.footer-tash h1 {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #000000;
+    padding-top: 30px;
+}
+.footer-tash button {
+    width: 294px;
+    height: 59px;
+    background: #FF001E;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #F5F7F9;
+    margin-top: 20px;
+    transition: .4s;
+    border: none;
+}
+.footer-tash button:hover {
+    border: 1px solid red;
+    transform: scale(1.1);
+    color: #FFFFFF;
+}
+.footer-mane {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    padding: 30px 0;
+}
+
+.footer-gg-tw {
+    padding: 40px 30px 0 30px;
+}
+.footer-ss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-gg-tw p {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+    padding: 0 0 10px 10px;
+}

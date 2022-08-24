@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+#navbar {
+    padding: 20px 0;
+    position: fixed;
+    z-index: 999;
+    backdrop-filter: blur(5px);
+    width: 100%;
+    background: rgba(0, 0, 0, 0.72);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar nav a {
+    padding: 0 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    transition: .4s;
+
+
+}
+
+.navbar nav a:hover {
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+.navbar nav button {
+    width: 193px;
+    height: 48px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+    transition: .4s;
+    cursor: pointer;
+    background: transparent;
+}
+
+.navbar nav button:hover {
+    transform: scale(1.1);
+    background: red;
+}
+
+.navbar-general {
+    font-family: sans-serif;
+}
+
+.navbar nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar nav img {
+    padding-left: 15px;
+}
+
+#hero {
+    background: url("../img/imagehp.png") no-repeat center/cover fixed;
+    min-height: 65vh;
+    padding-top: 170px;
+}
+
+.hero-title {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    color: #FFFFFF;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+    padding-bottom: 30px;
+    filter: drop-shadow(0 10px 10px black);
+}
+
+.hero-desc {
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+.hero-btn {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    width: 322px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background: red;
+    transition: .4s;
+}
+
+.hero-btn:hover {
+    background: red;
+    border: 1px solid red;
+    transform: scale(1.1);
+}
+
+.hero-item {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.hero-icons {
+    display: flex;
+}
+
+.hero-icons div {
+    font-size: 40px;
+    color: red;
+    padding: 0 15px;
+    transition: .4s;
+}
+
+.hero-icons div:hover {
+    transform: scale(1.1);
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+#get {
+    background: #222222;
+    padding-top: 30px;
+}
+.get-general {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.get-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.get-tt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.get-tt {
+    margin: 10px 20px;
+}
+.get-tt h1 {
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #FF001E;
+    position: absolute;
+    bottom: 70px;
+}
+.get-tt p {
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 200px;
+}
+.get-aa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.get-gg {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+.get-aa h1 {
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #FF001E;
+    position: absolute;
+    bottom: 70px;
+}
+.get-aa p {
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 200px;
+}
